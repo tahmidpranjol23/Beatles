@@ -1,0 +1,15 @@
+@media (max-width: 580px) {
+    .counter-container {
+      flex-direction: column;
+    }
+    .clc {
+        border-right: 0px dashed black;
+        border-bottom: 1px dashed black;
+        width: 50%;
+        margin: auto auto;
+      }
+      
+      .clc:last-child {
+        border-bottom: 0px dashed black;
+      }
+}
